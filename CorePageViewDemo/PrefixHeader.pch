@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  CorePageViewDemo
+//
+//  Created by Zhenwang Zha on 15/10/26.
+//  Copyright © 2015年 zhenwang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#import "DefineHeader.h"
+
+#import "UIColor+GJCategory.h"
+#import "NSDate+GJCategory.h"
+#import "NSString+GJCategory.h"
+#import "UIView+GJCategory.h"
+#import "UIButton+GJCategory.h"
+#import "UILabel+GJCategory.h"
+#import "UITextField+GJCategory.h"
+
+#endif /* PrefixHeader_pch */
